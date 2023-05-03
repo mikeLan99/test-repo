@@ -6,4 +6,3 @@ Person 4
 //kabeer added this -
 naruto 
 luffy 
-<<<<<<< HEAD
