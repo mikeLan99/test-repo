@@ -7,8 +7,3 @@ Person 4
 naruto 
 luffy 
 <<<<<<< HEAD
-Roronoa Zoro 
-=======
-goku 
->>>>>>> 01921a53250c8f30f5888d922158d4c0b4b980c7
-
