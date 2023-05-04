@@ -2,22 +2,27 @@
 
 using namespace std;
 
-// program for factorial 
+// dynamic programming solution 
 
-int fact(int x)
+int solve(int i , vector<int>&nums)
 {
-    if(x<=1)
-        return 1;
+    if(i==nums.size())
+        return 0;
 
-    return x*fact(x-1);
+    
+    int take = nums[i] + solve(i+1,nums);
+
+    int notTake = solve(i+1,nums);
+
+    return max(take,notTake);
 }
+
+
 int main()
 {
-    int x = 10;
+    int res  = solve(0,nums);
 
-    int res = fact(x);
     cout<<res;
-    
 
     return 0;
 
